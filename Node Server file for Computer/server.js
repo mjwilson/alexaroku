@@ -57,6 +57,8 @@ function postSequence(sequence,callback) {
                 res.on("data",function() {}); //required for the request to go through without error
                 handler();
 			});
+		} else {
+                    console.log ("unknown type "+typeof next);
 		}
 	}
 	handler();
@@ -356,9 +358,7 @@ var handlers = {
 	"/roku/search":function(request,response) {
 		getRequestData(request,function(data) {
 			var text = data.replace().toLowerCase();
-			var sequence = [].concat([			
-				createTypeSequence(text),
-				]);
+			var sequence = createTypeSequence(text);
 			postSequence(sequence);
 			response.end("OK");	 //respond with OK before the operation finishes
 		});
@@ -574,9 +574,17 @@ var handlers = {
 		});
 		response.end("OK");
         },
-        "/roku/hulu":function(request,response) {			//function to oen Hulu, ID below
+        "/roku/hulu":function(request,response) {			//function to open Hulu, ID below
         	postSequence([
 			hulu(rokuAddress),
+		],function(){
+
+		});
+		response.end("OK");
+        },
+        "/roku/NowTV":function(request,response) {			//function to open Now TV, ID below
+        	postSequence([
+			nowTV(rokuAddress),
 		],function(){
 
 		});
@@ -630,6 +638,22 @@ var handlers = {
 		});
 		response.end("OK");
         },
+        "/roku/shudder":function(request,response) {			//function for Shudder, ID below
+        	postSequence([
+			shudder(rokuAddress),
+		],function(){
+
+		});
+		response.end("OK");
+        },
+        "/roku/iplayer":function(request,response) {			//function for iPlayer, ID below
+        	postSequence([
+			iplayer(rokuAddress),
+		],function(){
+
+		});
+		response.end("OK");
+        },
 		"/roku/fx":function(request,response) {			//function for FX Channel, ID below
         	postSequence([
 			fx(rokuAddress),
@@ -663,6 +687,11 @@ function pandora(address){
 // Launches the Hulu channel (id 2285)
 function hulu(address){
  return address+"launch/2285";
+}
+
+// Launches the Now TV channel (id 2285)
+function nowTV(address){
+ return address+"launch/20242";
 }
 
 // Launches the Plex channel (id 13535)
@@ -705,6 +734,15 @@ function netflix(address){
  return address+"launch/12";
 }
 
+// Launches the Shudder channel (id 59997)
+function shudder(address){
+ return address+"launch/59997";
+}
+
+// Launches the iPlayer channel (id 11703)
+function iplayer(address){
+ return address+"launch/11703";
+}
 
 //start the MSEARCH background task to try every second (run it immediately too)
 setInterval(searchForRoku,1000);
