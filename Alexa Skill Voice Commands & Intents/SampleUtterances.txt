@@ -22,9 +22,9 @@ HBO open aitch bee o
 HBO start aitch bee o
 HBO go to aitch bee o
 
-TV open tv
-TV start tv
-TV go to tv
+NowTV open now tv
+NowTV start now tv
+NowTV go to now tv
 
 FX open eff x
 FX start eff x
@@ -136,22 +136,3 @@ Captionson turn on captions
 
 Captionsoff turn off captions
 
-Type type {futurama|Text}
-Type type {How I met your mother|Text}
-Type type {harry potter|Text}
-
-SearchRoku play {frequently asked questions about time travel|Text}
-SearchRoku play {santa claus|Text}
-SearchRoku play {gilmore girls|Text}
-SearchRoku play {harry potter|Text}
-
-SearchPlex play {frequently asked questions about time travel|Text} on plex
-SearchPlex play {santa claus|Text} on plex
-SearchPlex play {gilmore girls|Text} on plex
-SearchPlex play {harry potter|Text} on plex
-
-Search search {santa claus|Text}
-Search type {harry potter|Text}
-
-Playlastyoutube play last video on youtube
-Playlastyoutube play the last video on youtube
