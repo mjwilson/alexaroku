@@ -25,6 +25,10 @@
       "slots": []
     },
     {
+      "intent": "NowTV",
+      "slots": []
+    },
+    {
       "intent": "TV",
       "slots": []
     },
@@ -157,53 +161,8 @@
       "slots": []
     },
     {
-      "intent": "Type",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
-    },
-    {
       "intent": "PlayPause",
       "slots": []
-    },
-    {
-      "intent": "SearchRoku",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
-    },
-    {
-      "intent": "Search",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
-    },
-    {
-      "intent": "Playlastyoutube",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
-    },
-    {
-      "intent": "SearchPlex",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
     },
     {
       "intent": "None",

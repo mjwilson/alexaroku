@@ -56,6 +56,11 @@ AlexaRoku.prototype.intentHandlers = {
 			response.tellWithCard("Launching Hulu");
 		});
     },
+    NowTV: function (intent, session, response) {
+		sendCommand("/roku/NowTV",null,function() {
+			response.tellWithCard("Launching NowTV");
+		});
+    },
     Captionson: function (intent, session, response) {
 		sendCommand("/roku/captionson",null,function() {
 			response.tellWithCard("Turning On Captions");
