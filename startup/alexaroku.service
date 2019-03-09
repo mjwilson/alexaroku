@@ -1,0 +1,17 @@
+[Unit]
+Description=Service for Alexa Roku
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/alexaroku/server
+ExecStart=/usr/bin/node server
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=alexaroku
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target
