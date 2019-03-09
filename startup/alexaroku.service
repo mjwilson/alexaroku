@@ -10,8 +10,8 @@ Restart=always
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=alexaroku
-User=pi
-Group=pi
+User=alexaroku
+Group=alexaroku
 
 [Install]
 WantedBy=multi-user.target
