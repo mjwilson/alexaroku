@@ -1,0 +1,586 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "roku",
+            "intents": [
+                {
+                    "name": "Home",
+                    "slots": [],
+                    "samples": [
+                        "home",
+                        "go home",
+                        "go to home"
+                    ]
+                },
+                {
+                    "name": "Pandora",
+                    "slots": [],
+                    "samples": [
+                        "open pandora",
+                        "start pandora",
+                        "go to pandora"
+                    ]
+                },
+                {
+                    "name": "Mubi",
+                    "slots": [],
+                    "samples": [
+                        "open mubi",
+                        "start mubi",
+                        "go to mubi",
+                        "launch mubi"
+                    ]
+                },
+                {
+                    "name": "Prime",
+                    "slots": [],
+                    "samples": [
+                        "open prime",
+                        "start prime",
+                        "go to prime"
+                    ]
+                },
+                {
+                    "name": "Plex",
+                    "slots": [],
+                    "samples": [
+                        "open plex",
+                        "start plex",
+                        "go to plex"
+                    ]
+                },
+                {
+                    "name": "NowTV",
+                    "slots": [],
+                    "samples": [
+                        "open now tv",
+                        "start now tv",
+                        "go to now tv"
+                    ]
+                },
+                {
+                    "name": "TV",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "Netflix",
+                    "slots": [],
+                    "samples": [
+                        "open netflix",
+                        "start netflix",
+                        "go to netflix"
+                    ]
+                },
+                {
+                    "name": "Shudder",
+                    "slots": [],
+                    "samples": [
+                        "open shudder",
+                        "start shudder",
+                        "go to shudder",
+                        "open sugar",
+                        "start sugar",
+                        "go to sugar"
+                    ]
+                },
+                {
+                    "name": "iPlayer",
+                    "slots": [],
+                    "samples": [
+                        "open eye player",
+                        "start eye player",
+                        "go to eye player"
+                    ]
+                },
+                {
+                    "name": "FX",
+                    "slots": [],
+                    "samples": [
+                        "open eff x",
+                        "start eff x",
+                        "go to eff x"
+                    ]
+                },
+                {
+                    "name": "Fastforward",
+                    "slots": [],
+                    "samples": [
+                        "fast forward",
+                        "skip ahead",
+                        "move ahead"
+                    ]
+                },
+                {
+                    "name": "Instantreplay",
+                    "slots": [],
+                    "samples": [
+                        "skip back",
+                        "instant replay"
+                    ]
+                },
+                {
+                    "name": "Captionson",
+                    "slots": [],
+                    "samples": [
+                        "turn on captions"
+                    ]
+                },
+                {
+                    "name": "Captionsoff",
+                    "slots": [],
+                    "samples": [
+                        "turn off captions"
+                    ]
+                },
+                {
+                    "name": "Rewind",
+                    "slots": [],
+                    "samples": [
+                        "rewind",
+                        "move back"
+                    ]
+                },
+                {
+                    "name": "Up",
+                    "slots": [],
+                    "samples": [
+                        "go up",
+                        "move up"
+                    ]
+                },
+                {
+                    "name": "Uptwo",
+                    "slots": [],
+                    "samples": [
+                        "go up two",
+                        "move up two"
+                    ]
+                },
+                {
+                    "name": "Upthree",
+                    "slots": [],
+                    "samples": [
+                        "go up three",
+                        "move up three"
+                    ]
+                },
+                {
+                    "name": "Upfour",
+                    "slots": [],
+                    "samples": [
+                        "go up four",
+                        "move up four"
+                    ]
+                },
+                {
+                    "name": "Upfive",
+                    "slots": [],
+                    "samples": [
+                        "go up five",
+                        "move up five"
+                    ]
+                },
+                {
+                    "name": "Down",
+                    "slots": [],
+                    "samples": [
+                        "go down",
+                        "move down"
+                    ]
+                },
+                {
+                    "name": "Downtwo",
+                    "slots": [],
+                    "samples": [
+                        "go down two",
+                        "move down two"
+                    ]
+                },
+                {
+                    "name": "Downthree",
+                    "slots": [],
+                    "samples": [
+                        "go down three",
+                        "move down three"
+                    ]
+                },
+                {
+                    "name": "Downfour",
+                    "slots": [],
+                    "samples": [
+                        "go down four",
+                        "move down four"
+                    ]
+                },
+                {
+                    "name": "Downfive",
+                    "slots": [],
+                    "samples": [
+                        "go down five",
+                        "move down five"
+                    ]
+                },
+                {
+                    "name": "Left",
+                    "slots": [],
+                    "samples": [
+                        "go left",
+                        "move left"
+                    ]
+                },
+                {
+                    "name": "Lefttwo",
+                    "slots": [],
+                    "samples": [
+                        "go left two",
+                        "move left two"
+                    ]
+                },
+                {
+                    "name": "Leftthree",
+                    "slots": [],
+                    "samples": [
+                        "go left three",
+                        "move left three"
+                    ]
+                },
+                {
+                    "name": "Leftfour",
+                    "slots": [],
+                    "samples": [
+                        "go left four",
+                        "move left four"
+                    ]
+                },
+                {
+                    "name": "Leftfive",
+                    "slots": [],
+                    "samples": [
+                        "go leftfive",
+                        "move leftfive"
+                    ]
+                },
+                {
+                    "name": "Right",
+                    "slots": [],
+                    "samples": [
+                        "go right",
+                        "move right"
+                    ]
+                },
+                {
+                    "name": "Righttwo",
+                    "slots": [],
+                    "samples": [
+                        "go right two",
+                        "move right two"
+                    ]
+                },
+                {
+                    "name": "Rightthree",
+                    "slots": [],
+                    "samples": [
+                        "go right three",
+                        "move right three"
+                    ]
+                },
+                {
+                    "name": "Rightfour",
+                    "slots": [],
+                    "samples": [
+                        "go right four",
+                        "move right four"
+                    ]
+                },
+                {
+                    "name": "Rightfive",
+                    "slots": [],
+                    "samples": [
+                        "go right five",
+                        "move right five"
+                    ]
+                },
+                {
+                    "name": "Back",
+                    "slots": [],
+                    "samples": [
+                        "go back",
+                        "move back",
+                        "go back",
+                        "back up",
+                        "return"
+                    ]
+                },
+                {
+                    "name": "YouTube",
+                    "slots": [],
+                    "samples": [
+                        "open youtube",
+                        "start youtube",
+                        "go to youtube"
+                    ]
+                },
+                {
+                    "name": "Select",
+                    "slots": [],
+                    "samples": [
+                        "go",
+                        "enter",
+                        "select",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "PlayPause",
+                    "slots": [],
+                    "samples": [
+                        "play",
+                        "pause",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "SearchRoku",
+                    "slots": [
+                        {
+                            "name": "Text",
+                            "type": "MEDIATITLES"
+                        }
+                    ],
+                    "samples": [
+                        "play {Text}",
+                        "play {Text}",
+                        "play {Text}",
+                        "play {Text}"
+                    ]
+                },
+                {
+                    "name": "Search",
+                    "slots": [
+                        {
+                            "name": "Text",
+                            "type": "MEDIATITLES"
+                        }
+                    ],
+                    "samples": [
+                        "search {Text}",
+                        "type {Text}"
+                    ]
+                },
+                {
+                    "name": "None",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "MEDIATITLES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "legion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "riverdale"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "my crazy ex-girlfriend"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Disaster Artist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Shape of Water"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dunkirk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Coco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mother"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wonder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Murder on the Orient Express"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bright"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Greatest Showman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Guardians of the Galaxy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lady Bird"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "It"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Killing of a Sacred Deer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Mountain Between Us"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Darkest Hour"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I Tonya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Call Me By Your Name"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Beyond Skyline"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Handmaid's Tale"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Raw"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Blade Runner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "American Assassin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Logan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Get Out"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "American Made"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Atomic Blonde"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stronger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Foreigner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Post"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Downsizing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Spiderman Homecoming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Just Getting Started"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Baby Driver"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Detroit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wind River"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

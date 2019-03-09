@@ -556,6 +556,14 @@ var handlers = {
 		});
 		response.end("OK");
         },
+        "/roku/mubi":function(request,response) {			//function to open Mubi, ID below
+		postSequence([
+			mubi(rokuConfig.address),
+		],function(){
+
+		});
+		response.end("OK");
+        },
         "/roku/plex":function(request,response) {			//function to open Plex, ID below
         	postSequence([
 			plex(rokuConfig.address),
@@ -676,6 +684,10 @@ function handleRequest(request, response){
 // Launches the Amazon Video channel (id 13)
 function amazon(address){
  return address+"launch/13";
+}
+// Launches the Mubi channel (id 120906)
+function mubi(address){
+ return address+"launch/120906";
 }
 // Launches the Pandora channel (id 28)
 function pandora(address){

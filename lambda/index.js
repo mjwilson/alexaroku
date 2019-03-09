@@ -41,9 +41,14 @@ AlexaRoku.prototype.intentHandlers = {
 			response.tellWithCard("Going Home");
 		});
     },
-    Amazon: function (intent, session, response) {
+    Prime: function (intent, session, response) {
 		sendCommand("/roku/amazon",null,function() {
 			response.tellWithCard("Launching Amazon");
+		});
+    },
+    Mubi: function (intent, session, response) {
+		sendCommand("/roku/mubi",null,function() {
+			response.tellWithCard("Launching Mubi");
 		});
     },
     Pandora: function (intent, session, response) {
@@ -94,6 +99,16 @@ AlexaRoku.prototype.intentHandlers = {
     Netflix: function (intent, session, response) {
 		sendCommand("/roku/netflix",null,function() {
 			response.tellWithCard("Launching Netflix");
+		});
+    },
+    Shudder: function (intent, session, response) {
+		sendCommand("/roku/shudder",null,function() {
+			response.tellWithCard("Launching Shudder");
+		});
+    },
+    iPlayer: function (intent, session, response) {
+		sendCommand("/roku/iplayer",null,function() {
+			response.tellWithCard("Launching iPlayer");
 		});
     },
     HBO: function (intent, session, response) {
